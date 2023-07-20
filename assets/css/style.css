@@ -1,0 +1,128 @@
+/*=== base css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  overflow: hidden;
+  min-height: 100vh;
+  padding: 50px;
+  background: url(../images/main-bg.png) no-repeat center center/cover;
+}
+@media (max-width: 767px) {
+  .banner {
+    padding: 30px;
+  }
+}
+.banner .header .logo-1 {
+  max-width: 230px;
+}
+@media (max-width: 1399px) {
+  .banner .header .logo-1 {
+    max-width: 130px;
+  }
+}
+@media (max-width: 767px) {
+  .banner .header .logo-1 {
+    max-width: 80px;
+  }
+}
+.banner .header .logo-2 {
+  max-width: 400px;
+}
+@media (max-width: 1399px) {
+  .banner .header .logo-2 {
+    max-width: 230px;
+  }
+}
+@media (max-width: 767px) {
+  .banner .header .logo-2 {
+    max-width: 150px;
+  }
+}
+.banner .maintanance-img {
+  margin-top: -60px;
+  max-width: 245px;
+}
+@media (max-width: 1399px) {
+  .banner .maintanance-img {
+    max-width: 130px;
+  }
+}
+@media (max-width: 1199px) {
+  .banner .maintanance-img {
+    margin-top: 20px;
+  }
+}
+.banner .main-texts .title {
+  padding: 60px 0;
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+}
+@media (max-width: 1399px) {
+  .banner .main-texts .title {
+    font-size: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .banner .main-texts .title {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+}
+.banner .main-texts::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 825px;
+  height: 1px;
+  background: #fff;
+}
+.banner .social-nav img {
+  transition: 0.2s;
+}
+.banner .social-nav img:hover {
+  transform: scale(1.2);
+}
+.banner .copyright {
+  padding: 5px 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
+@media (max-width: 1199px) {
+  .banner .copyright {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/*===// end of base css === *//*# sourceMappingURL=style.css.map */
